@@ -1,0 +1,37 @@
+.hero__title {
+    font-weight: 600;
+    font-size: 24px;
+    color: $mainBlackColor;
+
+    @media screen and (min-width: 575px) {
+        font-size: 34px;
+    }
+
+    @media screen and (min-width: 768px) {
+        font-size: 36px;
+    }
+
+    @media screen and (min-width: 992px) {
+        font-size: 48px;
+    }
+
+    @media screen and (min-width: 1600px) {
+        font-size: 64px;
+    }
+}
+
+.hero__text {
+    font-size: 14px;
+
+    @media screen and (min-width: 575px) {
+        font-size: 16px;
+    }
+
+    @media screen and (min-width: 992px) {
+        font-size: 20px;
+    }
+
+    @media screen and (min-width: 1600px) {
+        font-size: 24px;
+    }
+}

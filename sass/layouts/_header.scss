@@ -1,0 +1,32 @@
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav__list {
+    display: flex;
+    gap: 30px;
+    @media screen and (min-width: 1600px) {
+        gap: 50px;
+    }
+}
+
+.header-nav__item {
+    padding: 20px 0;
+}
+
+.header-nav__link {
+    font-size: 16px;
+    font-weight: 500;
+    color: $accentColor;
+
+    @media screen and (min-width: 1600px) {
+        font-size: 20px;
+    }
+}

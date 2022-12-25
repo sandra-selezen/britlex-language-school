@@ -1,0 +1,56 @@
+.skills__list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.skills__item {
+    padding: 20px;
+    background-color: $itemBgColor;
+    border-radius: 5px;
+}
+
+.skills__subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    color: $accentColor;
+
+    @media screen and (min-width: 768px) {
+        font-size: 20px;
+    }
+
+    @media screen and (min-width: 992px) {
+        font-size: 22px;
+    }
+
+    @media screen and (min-width: 1600px) {
+        font-size: 30px;
+    }
+}
+
+.skills__text {
+    @media screen and (min-width: 992px) {
+        font-size: 14px;
+    }
+    
+    @media screen and (min-width: 1600px) {
+        font-size: 16px;
+    }
+}
+
+.skills__link {
+    display: inline-block;
+    padding: 14px 42px;
+    font-weight: 500;
+    font-size: 14px;
+    color: $mainWhiteColor;
+    background-color: $accentColor;
+    border-radius: 5px;
+
+    transition: background-color $duration $timingFunction;
+}
+
+.skills__link:hover,
+.skills__link:focus {
+    background-color: $mainBlackColor;
+}

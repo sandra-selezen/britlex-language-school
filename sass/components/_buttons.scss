@@ -1,0 +1,106 @@
+.header-btn {
+    font-size: 18px;
+    padding: 12px 40px;
+
+    color: $mainBlackColor;
+    background-color: $mainWhiteColor;
+    border: 2px solid $mainBlackColor;
+    border-radius: 5px;
+
+    transition: color $duration $timingFunction,
+        background-color $duration $timingFunction,
+        border-color $duration $timingFunction;
+
+    @media screen and (min-width: 1600px) {
+        font-size: 20px;
+        padding: 20px 80px;
+    }
+}
+
+.header-btn:hover,
+.header-btn:focus {
+    color: $mainWhiteColor;
+    background-color: $accentColor;
+    border-color: $accentColor;
+}
+
+.hero__btn {
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-weight: 500;
+    font-size: 16px;
+
+    color: $mainWhiteColor;
+    background-color: $accentColor;
+    border: 2px solid $accentColor;
+    border-radius: 5px;
+
+    transition: color $duration $timingFunction,
+        background-color $duration $timingFunction,
+        border-color $duration $timingFunction;
+
+    @media screen and (min-width: 575px) {
+        font-size: 18px;
+        max-width: 305px;
+    }
+
+    @media screen and (min-width: 768px) {
+        max-width: 236px;
+    }
+
+    @media screen and (min-width: 992px) {
+        font-size: 24px;
+        max-width: 292px;
+    }
+
+    @media screen and (min-width: 1600px) {
+        font-size: 36px;
+        max-width: 426px;
+    }
+}
+
+.hero__btn:hover,
+.hero__btn:focus {
+    color: $mainBlackColor;
+    background-color: $mainWhiteColor;
+    border-color: $mainBlackColor;
+}
+
+.contacts__btn {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 14px;
+
+    color: $mainWhiteColor;
+    background-color: $accentColor;
+    border: 2px solid $accentColor;
+    border-radius: 5px;
+
+    transition: color $duration $timingFunction,
+        background-color $duration $timingFunction,
+        border-color $duration $timingFunction;
+
+    @media screen and (min-width: 575px) {
+        max-width: 145px;
+        font-size: 16px;
+    }
+
+    @media screen and (min-width: 992px) {
+        max-width: 193px;
+    }
+
+    @media screen and (min-width: 1600px) {
+        max-width: 200px;
+        font-size: 20px;
+    }
+}
+
+.contacts__btn:hover,
+.contacts__btn:focus {
+    color: $mainBlackColor;
+    background-color: $mainWhiteColor;
+    border-color: $mainBlackColor;
+}
