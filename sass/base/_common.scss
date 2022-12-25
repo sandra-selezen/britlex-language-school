@@ -5,3 +5,19 @@ body {
     background-color: $mainWhiteColor;
 }
 
+.section {
+    padding-top: 70px;
+    outline: 1px solid navy;
+
+    @media screen and (min-width: 768px) {
+        padding-top: 100px;
+    }
+
+    @media screen and (min-width: 992px) {
+        padding-top: 140px;
+    }
+
+    @media screen and (min-width: 1600px) {
+        padding-top: 180px;
+    }
+}

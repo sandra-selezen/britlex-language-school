@@ -1,0 +1,24 @@
+.container {
+
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+
+    outline: 1px solid blueviolet;
+
+    @media screen and (min-width: 575px) {
+        width: 554px;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 736px;
+    }
+
+    @media screen and (min-width: 992px){
+        width: 972px;
+    }
+
+    @media screen and (min-width: 1600px) {
+        width: 1378px;
+    }
+}
