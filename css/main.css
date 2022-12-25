@@ -49,4 +49,11 @@ button {
           clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  color: #8F95A5;
+  background-color: #ffffff;
 }/*# sourceMappingURL=main.css.map */
