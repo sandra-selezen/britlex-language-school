@@ -37,19 +37,24 @@
     </header>
     <main>
         <section class="hero">
-            <div class="container">
-                <picture>
-                    <source media="(min-width: 1600px)" srcset="./images/hero-1600-1x.png 1x, ./images/hero-1600-2x.png 2x">
-                    <source media="(min-width: 992px)" srcset="./images/hero-992-1x.png 1x, ./images/hero-992-2x.png 2x">
-                    <source media="(min-width: 768px)" srcset="./images/hero-768-1x.png 1x, ./images/hero-768-2x.png 2x">
-                    <source media="(min-width: 575px)" srcset="./images/hero-575-1x.png 1x, ./images/hero-575-2x.png 2x">
-                    <source media="(max-width: 574px)" srcset="./images/hero-320-1x.png 1x, ./images/hero-320-2x.png 2x">
-                    <img class="hero__image" src="./images/hero-320-1x.png" alt="hero image">
-                </picture>
-                <h1 class="hero__title">Learn Any Foreign Language</h1>
-                <p class="hero__text">With our teachers who write a program for each student, you will be able to make your first sketch after the first
-                    lesson.</p>
-                <button class="hero__btn" type="button">Get started</button>
+            <div class="container hero__container">
+                <div class="hero__wrap-image">
+                    <picture>
+                        <source media="(min-width: 1600px)" srcset="./images/hero-1600-1x.png 1x, ./images/hero-1600-2x.png 2x">
+                        <source media="(min-width: 992px)" srcset="./images/hero-992-1x.png 1x, ./images/hero-992-2x.png 2x">
+                        <source media="(min-width: 768px)" srcset="./images/hero-768-1x.png 1x, ./images/hero-768-2x.png 2x">
+                        <source media="(min-width: 575px)" srcset="./images/hero-575-1x.png 1x, ./images/hero-575-2x.png 2x">
+                        <source media="(max-width: 574px)" srcset="./images/hero-320-1x.png 1x, ./images/hero-320-2x.png 2x">
+                        <img class="hero__image" src="./images/hero-320-1x.png" alt="hero image">
+                    </picture>
+                </div>
+                <div class="hero__wrap-text">
+                    <h1 class="hero__title">Learn Any Foreign Language</h1>
+                    <p class="hero__text">With our teachers who write a program for each student, you will be able to make your first sketch
+                        after the first
+                        lesson.</p>
+                    <button class="hero__btn" type="button">Get started</button>
+                </div>
             </div>
         </section>
         <section class="section skills">

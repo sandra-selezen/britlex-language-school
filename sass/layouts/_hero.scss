@@ -1,4 +1,27 @@
+.hero__container {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 30px;
+        align-items: center;
+    }
+}
+
+.hero__wrap-image {
+    @media screen and (min-width: 768px) {
+        flex-basis: calc((100% - 30px) / 2);
+    }
+}
+
+.hero__wrap-text {
+    @media screen and (min-width: 768px) {
+        flex-basis: calc((100% - 30px) / 2);
+    }
+}
+
 .hero__image {
+    margin-bottom: 16px;
+
     @media screen and (min-width: 575px) and (max-width: 767px) {
         width: 424px;
     }
@@ -17,6 +40,8 @@
 }
 
 .hero__title {
+    margin-bottom: 20px;
+    text-align: center;
     font-weight: 600;
     font-size: 24px;
     color: $mainBlackColor;
@@ -26,6 +51,8 @@
     }
 
     @media screen and (min-width: 768px) {
+        margin-bottom: 25px;
+        text-align: left;
         font-size: 36px;
     }
 
@@ -34,15 +61,23 @@
     }
 
     @media screen and (min-width: 1600px) {
+        margin-bottom: 40px;
         font-size: 64px;
     }
 }
 
 .hero__text {
+    margin-bottom: 30px;
+    text-align: center;
     font-size: 14px;
 
     @media screen and (min-width: 575px) {
+        margin-bottom: 35px;
         font-size: 16px;
+    }
+
+    @media screen and (min-width: 768px) {
+        text-align: left;
     }
 
     @media screen and (min-width: 992px) {
@@ -50,6 +85,7 @@
     }
 
     @media screen and (min-width: 1600px) {
+        margin-bottom: 60px;
         font-size: 24px;
     }
 }

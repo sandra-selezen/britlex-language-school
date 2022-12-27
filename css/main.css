@@ -299,7 +299,63 @@ body {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .hero__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    gap: 30px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero__wrap-image {
+    -ms-flex-preferred-size: calc((100% - 30px) / 2);
+        flex-basis: calc((100% - 30px) / 2);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero__wrap-text {
+    -ms-flex-preferred-size: calc((100% - 30px) / 2);
+        flex-basis: calc((100% - 30px) / 2);
+  }
+}
+
+.hero__image {
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 575px) and (max-width: 767px) {
+  .hero__image {
+    width: 424px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .hero__image {
+    width: 352px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1599px) {
+  .hero__image {
+    width: 460px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .hero__image {
+    width: 654px;
+  }
+}
+
 .hero__title {
+  margin-bottom: 20px;
+  text-align: center;
   font-weight: 600;
   font-size: 24px;
   color: #000000;
@@ -311,6 +367,8 @@ body {
 }
 @media screen and (min-width: 768px) {
   .hero__title {
+    margin-bottom: 25px;
+    text-align: left;
     font-size: 36px;
   }
 }
@@ -321,16 +379,25 @@ body {
 }
 @media screen and (min-width: 1600px) {
   .hero__title {
+    margin-bottom: 40px;
     font-size: 64px;
   }
 }
 
 .hero__text {
+  margin-bottom: 30px;
+  text-align: center;
   font-size: 14px;
 }
 @media screen and (min-width: 575px) {
   .hero__text {
+    margin-bottom: 35px;
     font-size: 16px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero__text {
+    text-align: left;
   }
 }
 @media screen and (min-width: 992px) {
@@ -340,7 +407,92 @@ body {
 }
 @media screen and (min-width: 1600px) {
   .hero__text {
+    margin-bottom: 60px;
     font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 575px) and (max-width: 767px) {
+  .skills__image-1 {
+    width: 185px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .skills__image-1 {
+    width: 214px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1599px) {
+  .skills__image-1 {
+    width: 260px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .skills__image-1 {
+    width: 390px;
+  }
+}
+
+@media screen and (min-width: 575px) and (max-width: 767px) {
+  .skills__image-2 {
+    width: 182px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .skills__image-2 {
+    width: 200px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1599px) {
+  .skills__image-2 {
+    width: 205px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .skills__image-2 {
+    width: 390px;
+  }
+}
+
+@media screen and (min-width: 575px) and (max-width: 767px) {
+  .skills__image-3 {
+    width: 198px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .skills__image-3 {
+    width: 216px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1599px) {
+  .skills__image-3 {
+    width: 243px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .skills__image-3 {
+    width: 390px;
+  }
+}
+
+@media screen and (min-width: 575px) and (max-width: 767px) {
+  .skills__image-4 {
+    width: 206px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .skills__image-4 {
+    width: 202px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1599px) {
+  .skills__image-4 {
+    width: 254px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .skills__image-4 {
+    width: 408px;
   }
 }
 
@@ -408,6 +560,27 @@ body {
   background-color: #000000;
 }
 
+@media screen and (min-width: 575px) and (max-width: 767px) {
+  .about__image {
+    width: 352px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .about__image {
+    width: 295px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1599px) {
+  .about__image {
+    width: 336px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .about__image {
+    width: 540px;
+  }
+}
+
 @media screen and (min-width: 575px) {
   .about__text {
     font-size: 14px;
@@ -453,6 +626,69 @@ body {
 @media screen and (min-width: 1600px) {
   .about__tag {
     font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 575px) and (max-width: 767px) {
+  .pricing__image-1 {
+    width: 291px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .pricing__image-1 {
+    width: 197px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1599px) {
+  .pricing__image-1 {
+    width: 222px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .pricing__image-1 {
+    width: 426px;
+  }
+}
+
+@media screen and (min-width: 575px) and (max-width: 767px) {
+  .pricing__image-2 {
+    width: 314px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .pricing__image-2 {
+    width: 219px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1599px) {
+  .pricing__image-2 {
+    width: 267px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .pricing__image-2 {
+    width: 426px;
+  }
+}
+
+@media screen and (min-width: 575px) and (max-width: 767px) {
+  .pricing__image-3 {
+    width: 253px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .pricing__image-3 {
+    width: 210px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1599px) {
+  .pricing__image-3 {
+    width: 242px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .pricing__image-3 {
+    width: 426px;
   }
 }
 
@@ -545,6 +781,27 @@ body {
 @media screen and (min-width: 1600px) {
   .pricing__tag {
     font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 575px) and (max-width: 767px) {
+  .contacts__image {
+    width: 358px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .contacts__image {
+    width: 233px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1599px) {
+  .contacts__image {
+    width: 312px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .contacts__image {
+    width: 425px;
   }
 }
 
