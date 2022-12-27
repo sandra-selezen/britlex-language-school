@@ -782,6 +782,36 @@ body {
   background-color: #eeeeee;
 }
 
+@media screen and (max-width: 767px) {
+  .pricing__wrap-1 {
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .pricing__wrap-1 {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .pricing__wrap-2,
+.pricing__wrap-3 {
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .pricing__wrap-2,
+.pricing__wrap-3 {
+    margin-top: 80px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .pricing__wrap-2,
+.pricing__wrap-3 {
+    margin-top: 78px;
+  }
+}
+
 .pricing__price {
   font-size: 18px;
   color: #263238;

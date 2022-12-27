@@ -70,8 +70,6 @@
 }
 
 .pricing__item {
-    
-
     @media screen and (max-width: 767px) {
 
         &:not(:last-child) {
@@ -129,10 +127,34 @@
 }
 
 .pricing__wrap {
-    // margin-top: auto;
     border-radius: 5px;
     background-color: $priceBgColor;
 }
+
+.pricing__wrap-1 {
+    @media screen and (max-width: 767px) {
+        margin-top: 30px;
+    }
+
+    @media screen and (min-width: 768px) {
+        margin-top: 30px;
+    }
+}
+
+.pricing__wrap-2,
+.pricing__wrap-3 {
+    @media screen and (max-width: 767px) {
+        margin-top: 30px;
+    }
+
+    @media screen and (min-width: 768px) {
+        margin-top: 80px;
+    }
+
+    @media screen and (min-width: 992px) {
+        margin-top: 78px;
+    }
+} 
 
 .pricing__price {
     font-size: 18px;
