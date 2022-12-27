@@ -629,6 +629,14 @@ body {
   }
 }
 
+.pricing__title {
+  margin-bottom: 50px;
+}
+
+.pricing__image {
+  margin-bottom: 20px;
+}
+
 @media screen and (min-width: 575px) and (max-width: 767px) {
   .pricing__image-1 {
     width: 291px;
@@ -692,17 +700,33 @@ body {
   }
 }
 
-.pricing__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+@media screen and (min-width: 768px) {
+  .pricing__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 50px;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
 }
 
-.pricing__item {
-  text-align: center;
+@media screen and (max-width: 767px) {
+  .pricing__item:not(:last-child) {
+    margin-bottom: 70px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .pricing__item {
+    -ms-flex-preferred-size: calc((100% - 50px) / 3);
+        flex-basis: calc((100% - 50px) / 3);
+  }
 }
 
 .pricing__subtitle {
+  margin-bottom: 25px;
+  text-align: center;
   font-weight: 600;
   font-size: 18px;
   color: #000000;
@@ -714,6 +738,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .pricing__subtitle {
+    text-align: left;
     font-size: 20px;
   }
 }
@@ -728,9 +753,17 @@ body {
   }
 }
 
+.pricing__text {
+  text-align: center;
+}
 @media screen and (min-width: 575px) {
   .pricing__text {
     font-size: 14px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .pricing__text {
+    text-align: left;
   }
 }
 @media screen and (min-width: 992px) {
