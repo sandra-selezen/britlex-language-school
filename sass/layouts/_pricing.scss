@@ -1,3 +1,57 @@
+.pricing__image-1 {
+    @media screen and (min-width: 575px) and (max-width: 767px) {
+        width: 291px;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+        width: 197px;
+    }
+
+    @media screen and (min-width: 992px) and (max-width: 1599px) {
+        width: 222px;
+    }
+
+    @media screen and (min-width: 1600px) {
+        width: 426px;
+    }
+}
+
+.pricing__image-2 {
+    @media screen and (min-width: 575px) and (max-width: 767px) {
+        width: 314px;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+        width: 219px;
+    }
+
+    @media screen and (min-width: 992px) and (max-width: 1599px) {
+        width: 267px;
+    }
+
+    @media screen and (min-width: 1600px) {
+        width: 426px;
+    }
+}
+
+.pricing__image-3 {
+    @media screen and (min-width: 575px) and (max-width: 767px) {
+        width: 253px;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+        width: 210px;
+    }
+
+    @media screen and (min-width: 992px) and (max-width: 1599px) {
+        width: 242px;
+    }
+
+    @media screen and (min-width: 1600px) {
+        width: 426px;
+    }
+}
+
 .pricing__list {
     display: flex;
 }

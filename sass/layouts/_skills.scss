@@ -1,3 +1,75 @@
+.skills__image-1 {
+    @media screen and (min-width: 575px) and (max-width: 767px) {
+        width: 185px;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+        width: 214px;
+    }
+
+    @media screen and (min-width: 992px) and (max-width: 1599px) {
+        width: 260px;
+    }
+
+    @media screen and (min-width: 1600px) {
+        width: 390px;
+    }
+}
+
+.skills__image-2 {
+    @media screen and (min-width: 575px) and (max-width: 767px) {
+        width: 182px;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+        width: 200px;
+    }
+
+    @media screen and (min-width: 992px) and (max-width: 1599px) {
+        width: 205px;
+    }
+
+    @media screen and (min-width: 1600px) {
+        width: 390px;
+    }
+}
+
+.skills__image-3 {
+    @media screen and (min-width: 575px) and (max-width: 767px) {
+        width: 198px;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+        width: 216px;
+    }
+
+    @media screen and (min-width: 992px) and (max-width: 1599px) {
+        width: 243px;
+    }
+
+    @media screen and (min-width: 1600px) {
+        width: 390px;
+    }
+}
+
+.skills__image-4 {
+    @media screen and (min-width: 575px) and (max-width: 767px) {
+        width: 206px;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+        width: 202px;
+    }
+
+    @media screen and (min-width: 992px) and (max-width: 1599px) {
+        width: 254px;
+    }
+
+    @media screen and (min-width: 1600px) {
+        width: 408px;
+    }
+}
+
 .skills__list {
     display: flex;
     gap: 10px;

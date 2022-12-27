@@ -1,3 +1,21 @@
+.contacts__image {
+    @media screen and (min-width: 575px) and (max-width: 767px) {
+        width: 358px;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+        width: 233px;
+    }
+
+    @media screen and (min-width: 992px) and (max-width: 1599px) {
+        width: 312px;
+    }
+
+    @media screen and (min-width: 1600px) {
+        width: 425px;
+    }
+}
+
 .contacts__text {
     font-size: 14px;
     text-align: center;

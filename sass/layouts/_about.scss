@@ -1,3 +1,21 @@
+.about__image {
+    @media screen and (min-width: 575px) and (max-width: 767px) {
+        width: 352px;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+        width: 295px;
+    }
+
+    @media screen and (min-width: 992px) and (max-width: 1599px) {
+        width: 336px;
+    }
+
+    @media screen and (min-width: 1600px) {
+        width: 540px;
+    }
+}
+
 .about__text {
     @media screen and (min-width: 575px) {
         font-size: 14px;
