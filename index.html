@@ -71,7 +71,7 @@
                             <img class="skills__image skills__image-1" src="./images/skills-1-320-1x.png" alt="skills image">
                         </picture>
                         <h3 class="skills__subtitle">Speaking</h3>
-                        <p class="skills__text">Improve your English skills and confidence. Live classes and interactive lessons online. 20% extra free for
+                        <p class="skills__text skills__text--first">Improve your English skills and confidence. Live classes and interactive lessons online. 20% extra free for
                         a limited time only.</p>
                         <p class="skills__text">Learn English online and improve your
                         skills through our high-quality courses and resources – all designed for adult language learners.</p>
@@ -127,31 +127,41 @@
         <section class="section about">
             <div class="container">
                 <h2 class="section-title">About Us</h2>
-                <picture>
-                    <source media="(min-width: 1600px)" srcset="./images/about-1600-1x.png 1x, ./images/about-1600-2x.png 2x">
-                    <source media="(min-width: 992px)" srcset="./images/about-992-1x.png 1x, ./images/about-992-2x.png 2x">
-                    <source media="(min-width: 768px)" srcset="./images/about-768-1x.png 1x, ./images/about-768-2x.png 2x">
-                    <source media="(min-width: 575px)" srcset="./images/about-575-1x.png 1x, ./images/about-575-2x.png 2x">
-                    <source media="(max-width: 574px)" srcset="./images/about-320-1x.png 1x, ./images/about-320-2x.png 2x">
-                    <img class="about__image" src="./images/about-320-1x.png" alt="about image">
-                </picture>
-                <p class="about__text">The model offers a framework for discussing problems related to the user's experience, as well as possible ways and
-                means of solving them. Application development begins at the top level (strategy), where the future software product is
-                described quite abstractly from the point of view of the expectations of both users and the customer.</p>
-                <ul class="about__list">
-                    <li class="about__item">
-                        <span class="about__num">800</span>
-                        <span class="about__tag">Pupils</span>
-                    </li>
-                    <li class="about__item">
-                        <span class="about__num">18</span>
-                        <span class="about__tag">Teachers</span>
-                    </li>
-                    <li class="about__item">
-                        <span class="about__num">6</span>
-                        <span class="about__tag">Foreign languages</span>
-                    </li>
-                </ul>
+                <div class="about__wrapper">
+                    <div class="about__wrap-image">
+                        <picture>
+                            <source media="(min-width: 1600px)" srcset="./images/about-1600-1x.png 1x, ./images/about-1600-2x.png 2x">
+                            <source media="(min-width: 992px)" srcset="./images/about-992-1x.png 1x, ./images/about-992-2x.png 2x">
+                            <source media="(min-width: 768px)" srcset="./images/about-768-1x.png 1x, ./images/about-768-2x.png 2x">
+                            <source media="(min-width: 575px)" srcset="./images/about-575-1x.png 1x, ./images/about-575-2x.png 2x">
+                            <source media="(max-width: 574px)" srcset="./images/about-320-1x.png 1x, ./images/about-320-2x.png 2x">
+                            <img class="about__image" src="./images/about-320-1x.png" alt="about image">
+                        </picture>
+                    </div>
+                    <div class="about__wrap-text">
+                        <p class="about__text">The model offers a framework for discussing problems related to the user's experience, as
+                            well as
+                            possible ways and
+                            means of solving them. Application development begins at the top level (strategy), where the future software
+                            product
+                            is
+                            described quite abstractly from the point of view of the expectations of both users and the customer.</p>
+                        <ul class="about__list">
+                            <li class="about__item">
+                                <span class="about__num">800</span>
+                                <span class="about__tag">Pupils</span>
+                            </li>
+                            <li class="about__item">
+                                <span class="about__num">18</span>
+                                <span class="about__tag">Teachers</span>
+                            </li>
+                            <li class="about__item">
+                                <span class="about__num">6</span>
+                                <span class="about__tag">Foreign languages</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="section pricing">

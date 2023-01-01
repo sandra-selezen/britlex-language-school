@@ -1,4 +1,30 @@
+.about__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 30px;
+        align-items: center;
+    }
+}
+
+.about__wrap-image {
+    @media screen and (min-width: 768px) {
+        flex-basis: calc((100% - 30px) / 2);
+    }
+}
+
+.about__wrap-text {
+    @media screen and (min-width: 768px) {
+        flex-basis: calc((100% - 30px) / 2);
+    }
+}
+
 .about__image {
+    margin-bottom: 20px;
     @media screen and (min-width: 575px) and (max-width: 767px) {
         width: 352px;
     }
@@ -17,6 +43,12 @@
 }
 
 .about__text {
+    margin-bottom: 20px;
+
+    @media screen and (max-width: 574px) {
+        text-align: center;
+    }
+
     @media screen and (min-width: 575px) {
         font-size: 14px;
     }
@@ -31,14 +63,24 @@
 }
 
 .about__list {
-
+    @media screen and (min-width: 575px) {
+        display: flex;
+        gap: 50px;
+    }
 }
 
 .about__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+    &:not(:last-child) {
+        margin-bottom: 30px;
+    }
 }
 
 .about__num {
+    margin-bottom: 10px;
     font-weight: 600;
     font-size: 24px;
     color: $numberColor;

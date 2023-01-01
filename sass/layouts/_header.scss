@@ -4,17 +4,17 @@
 }
 
 .header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-between;
 }
 
 .header-nav__list {
-    display: flex;
-    gap: 30px;
-    @media screen and (min-width: 1600px) {
-        gap: 50px;
-    }
+    // display: flex;
+    // gap: 30px;
+    // @media screen and (min-width: 1600px) {
+    //     gap: 50px;
+    // }
 }
 
 .header-nav__item {

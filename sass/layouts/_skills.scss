@@ -1,3 +1,7 @@
+.skills__image {
+    margin-bottom: 10px;
+}
+
 .skills__image-1 {
     @media screen and (min-width: 575px) and (max-width: 767px) {
         width: 185px;
@@ -71,18 +75,34 @@
 }
 
 .skills__list {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
+    @media screen and (min-width: 575px) {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
 }
 
 .skills__item {
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px;
     background-color: $itemBgColor;
     border-radius: 5px;
+
+    @media screen and (max-width: 574px) {
+        width: 290px;
+        &:not(:last-child) {
+            margin-bottom: 10px;
+        }
+    }
+
+    @media screen and (min-width: 575px) {
+        flex-basis: calc((100% - 30px) / 2);
+    }
 }
 
 .skills__subtitle {
+    margin-bottom: 10px;
     font-weight: 600;
     font-size: 18px;
     color: $accentColor;
@@ -110,6 +130,10 @@
     }
 }
 
+.skills__text--first {
+    margin-bottom: 10px;
+}
+
 .skills__link {
     display: inline-block;
     padding: 14px 42px;
@@ -120,6 +144,10 @@
     border-radius: 5px;
 
     transition: background-color $duration $timingFunction;
+
+    @media screen and (max-width: 574px) {
+        margin-top: 30px;
+    }
 }
 
 .skills__link:hover,
