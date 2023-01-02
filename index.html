@@ -109,17 +109,22 @@
                         <a class="skills__link" href="">Learn more</a>
                     </li>
                     <li class="skills__item skills__item--4">
-                        <picture>
-                            <source media="(min-width: 1600px)" srcset="./images/skills-4-1600-1x.png 1x, ./images/skills-4-1600-2x.png 2x">
-                            <source media="(min-width: 992px)" srcset="./images/skills-4-992-1x.png 1x, ./images/skills-4-992-2x.png 2x">
-                            <source media="(min-width: 768px)" srcset="./images/skills-4-768-1x.png 1x, ./images/skills-4-768-2x.png 2x">
-                            <source media="(min-width: 575px)" srcset="./images/skills-4-575-1x.png 1x, ./images/skills-4-575-2x.png 2x">
-                            <source media="(max-width: 574px)" srcset="./images/skills-4-320-1x.png 1x, ./images/skills-4-320-2x.png 2x">
-                            <img class="skills__image skills__image-4" src="./images/skills-4-320-1x.png" alt="skills image">
-                        </picture>
-                        <h3 class="skills__subtitle">Listening</h3>
-                        <p class="skills__text">Here you can find activities to practise your listening skills. Listening will help you to improve your understanding.</p>
-                        <a class="skills__link" href="">Learn more</a>
+                        <div class="skills__wrap-image">
+                            <picture>
+                                <source media="(min-width: 1600px)" srcset="./images/skills-4-1600-1x.png 1x, ./images/skills-4-1600-2x.png 2x">
+                                <source media="(min-width: 992px)" srcset="./images/skills-4-992-1x.png 1x, ./images/skills-4-992-2x.png 2x">
+                                <source media="(min-width: 768px)" srcset="./images/skills-4-768-1x.png 1x, ./images/skills-4-768-2x.png 2x">
+                                <source media="(min-width: 575px)" srcset="./images/skills-4-575-1x.png 1x, ./images/skills-4-575-2x.png 2x">
+                                <source media="(max-width: 574px)" srcset="./images/skills-4-320-1x.png 1x, ./images/skills-4-320-2x.png 2x">
+                                <img class="skills__image skills__image-4" src="./images/skills-4-320-1x.png" alt="skills image">
+                            </picture>
+                        </div>
+                        <div class="skills__wrap-text">
+                            <h3 class="skills__subtitle">Listening</h3>
+                            <p class="skills__text">Here you can find activities to practise your listening skills. Listening will help you to
+                                improve your understanding.</p>
+                            <a class="skills__link" href="">Learn more</a>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -246,7 +251,7 @@
                             Sign up to our newsletter for learning tips
                             and free resource.</p>
                         <form class="form-subscribe">
-                            <input class="form-subscribe__input" type="email" name="name" placeholder="Enter Your E-mail">
+                            <input class="form-subscribe__input" type="email" name="name" placeholder="Enter Your E-mail" required>
                             <button class="contacts__btn" type="submit">Subscribe</button>
                         </form>
                     </div>
