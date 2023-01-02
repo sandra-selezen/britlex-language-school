@@ -41,7 +41,8 @@
     font-size: 12px;
     font-weight: 500;
     color: $mainTextColor;
-
+    transition: color $duration $timingFunction;
+    
     @media screen and (min-width: 992px) {
         font-size: 16px;
     }
@@ -49,4 +50,9 @@
     @media screen and (min-width: 1600px) {
         font-size: 24px;
     }
+}
+
+.footer__link:hover,
+.footer__link:focus {
+    color: $accentColor;
 }

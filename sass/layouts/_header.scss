@@ -4,17 +4,22 @@
 }
 
 .header-container {
-    // display: flex;
-    // align-items: center;
-    // justify-content: space-between;
+    @media screen and (min-width: 992px) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
 
 .header-nav__list {
-    // display: flex;
-    // gap: 30px;
-    // @media screen and (min-width: 1600px) {
-    //     gap: 50px;
-    // }
+    @media screen and (min-width: 992px) {
+        display: flex;
+        gap: 30px;
+    }
+    
+    @media screen and (min-width: 1600px) {
+        gap: 50px;
+    }
 }
 
 .header-nav__item {
@@ -25,8 +30,14 @@
     font-size: 16px;
     font-weight: 500;
     color: $accentColor;
+    transition: color $duration $timingFunction;
 
     @media screen and (min-width: 1600px) {
         font-size: 20px;
     }
+}
+
+.header-nav__link:hover,
+.header-nav__link:focus {
+    color: $mainTextColor;
 }
