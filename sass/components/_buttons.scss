@@ -11,6 +11,10 @@
         background-color $duration $timingFunction,
         border-color $duration $timingFunction;
 
+    @media screen and (max-width: 991px) {
+        margin-top: 20px;
+    }
+
     @media screen and (min-width: 1600px) {
         font-size: 20px;
         padding: 20px 80px;

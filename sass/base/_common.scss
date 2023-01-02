@@ -35,6 +35,11 @@ body {
         font-size: 30px;
     }
 
+    @media screen and (max-width: 991px) {
+        display: block;
+        margin-bottom: 20px;
+    }
+
     @media screen and (min-width: 1600px) {
         font-size: 36px;
     }
