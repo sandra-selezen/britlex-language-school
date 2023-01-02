@@ -1,0 +1,84 @@
+.overlay {
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(7, 34, 47, .7);
+    z-index: 1;
+    transition: all $duration $timingFunction;
+}
+
+.modal {
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    min-height: 500px;
+    z-index: 20;
+    padding: 40px;
+    border: 1px solid $accentColor;
+    border-radius: 5px;
+    background-color: $mainWhiteColor;
+    transform: translate(-50%, -50%) rotate(0);
+    transition: all $duration $timingFunction;
+}
+
+.overlay .modal.active {
+    pointer-events: none;
+}
+
+.modal.active,
+.overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal__close-button {
+    display: block;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    width: 18px;
+    height: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    fill: $accentColor;
+    cursor: pointer;
+}
+
+.modal__title {
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: $mainBlackColor;
+}
+
+.modal__form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+// .form {}
+
+.form__label {
+    font-size: 16px;
+}
+
+.form__input,
+.form__textarea {
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid $accentColor;
+    border-radius: 5px;
+}

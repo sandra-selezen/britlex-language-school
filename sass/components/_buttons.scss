@@ -76,7 +76,8 @@
     border-color: $mainBlackColor;
 }
 
-.contacts__btn {
+.contacts__btn,
+.form__btn {
     width: 100%;
     height: 60px;
     padding-top: 20px;
@@ -109,7 +110,9 @@
 }
 
 .contacts__btn:hover,
-.contacts__btn:focus {
+.contacts__btn:focus,
+.form__btn:hover,
+.form__btn:focus {
     color: $mainBlackColor;
     background-color: $mainWhiteColor;
     border-color: $mainBlackColor;
