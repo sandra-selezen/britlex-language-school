@@ -24,7 +24,7 @@
     border: 1px solid $accentColor;
     border-radius: 5px;
     background-color: $mainWhiteColor;
-    transform: translate(-50%, -50%) rotate(0);
+    transform: translate(-50%, -50%);
     transition: all $duration $timingFunction;
 
     @media screen and (min-width: 414px) {

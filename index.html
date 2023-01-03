@@ -28,11 +28,11 @@
             <a class="logo" href="./index.html">Brit<span class="logo-gray">lex</span></a>
             <nav class="header-nav">
                 <ul class="header-nav__list">
-                    <li class="header-nav__item"><a class="header-nav__link" href="">Home</a></li>
-                    <li class="header-nav__item"><a class="header-nav__link" href="">Skills</a></li>
-                    <li class="header-nav__item"><a class="header-nav__link" href="">About Us</a></li>
-                    <li class="header-nav__item"><a class="header-nav__link" href="">Pricing</a></li>
-                    <li class="header-nav__item"><a class="header-nav__link" href="">Contacts</a></li>
+                    <li class="header-nav__item"><a data-goto=".hero" class="header-nav__link" href="#">Home</a></li>
+                    <li class="header-nav__item"><a data-goto=".skills" class="header-nav__link" href="#">Skills</a></li>
+                    <li class="header-nav__item"><a data-goto=".about" class="header-nav__link" href="#">About Us</a></li>
+                    <li class="header-nav__item"><a data-goto=".pricing" class="header-nav__link" href="#">Pricing</a></li>
+                    <li class="header-nav__item"><a data-goto=".contacts" class="header-nav__link" href="#">Contacts</a></li>
                 </ul>
             </nav>
             <button class="header-btn js-open-modal" type="button" data-modal="1">Let’s Talk</button>
@@ -297,5 +297,6 @@
     </div>
     <div class="overlay js-overlay-modal is-hidden"></div>
     <script src="./js/modal.js"></script>
+    <script src="./js/navigation.js"></script>
 </body>
 </html>
